@@ -1,0 +1,14 @@
+:root {
+    /* Default value for --size-scale */
+    --size-scale: 1;
+}
+
+/* Base Font Size for HTML */
+body>* {
+    /* Default base font size for root */
+    zoom: var(--size-scale);
+}
+
+* {
+    zoom: unset;
+}
